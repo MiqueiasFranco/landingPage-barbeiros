@@ -5,6 +5,10 @@
 /tmp
 /out-tsc
 /bazel-out
+<<<<<<< HEAD
+=======
+.env
+>>>>>>> parent of ec279e2 (gitignore)
 # Node
 /node_modules
 npm-debug.log
