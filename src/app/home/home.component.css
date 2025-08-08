@@ -287,7 +287,6 @@ ul li a{
         flex-flow: column-reverse;
     }
     .slogan-descricao{
-        margin-top: -200px;
         padding: 20px;
         font-size: 1rem;
         justify-content: center;
