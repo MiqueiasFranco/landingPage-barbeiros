@@ -18,6 +18,7 @@ nav h4{
     letter-spacing: 2px;
     font-size: 20px;
     text-shadow: -1px 0px 3px #2cb67d;
+    color: #fff;
 }
 
 ul{
@@ -73,11 +74,11 @@ ul li a{
     box-shadow: -1px 1px 3px #2cb67d;
     border-radius: 10px;
     width: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 20px;
     height: auto;
     max-height: 70%;
-
+    margin-top: -200px;
 }
 .slogan-descricao{
     width: 50%;
@@ -95,11 +96,13 @@ ul li a{
     padding: 20px;
     background-color: #141617;
     border-radius: 10px;
+    box-shadow: -1px 1px 3px #2cb67d ;
+
 }
 .barbeiros{
     font-style: italic;
     padding: 10px;
-    color: #121414;
+    color: #fff;
     text-shadow: 1px 1px 3px #2cb67d;
 
 }
@@ -127,7 +130,6 @@ ul li a{
     justify-content: flex-end;
     min-width: 50%;
     height: 70%;
-    min-height: 40%;
 }
 .img img{
     height: 100%;
@@ -234,25 +236,30 @@ ul li a{
     }
 }
 
-@media (max-width:760px){
+@media (max-width:780px){
     nav h4{
         justify-content: center;
+        margin: 0;
+    }
+    ul{
         margin: 0;
     }
     .slogan{
         flex-flow: column-reverse;
     }
     .slogan-descricao{
-        margin-top: -200px;
         font-size: 1rem;
         justify-content: center;
         text-overflow: ellipsis;
+        padding: 20px;
     }
     .img{
-        height: 20%;
-        width: 50%;
+        height: 30%;
+        width: 20%;
         justify-content: center;
         object-fit: cover;
+        margin-bottom: -130px;
+
     }
     .container-servicos{
         display: grid;
@@ -269,26 +276,29 @@ ul li a{
     }
 }
 @media (max-width:630px){
-    nav h4{
-        justify-content: center;
-        margin: 0;
-    }
+    
+    
     ul {
         width: 40%;
+        font-size: 11px;
+        margin: 0;
     }
     .slogan{
         flex-flow: column-reverse;
     }
     .slogan-descricao{
         margin-top: -200px;
+        padding: 20px;
         font-size: 1rem;
         justify-content: center;
+        align-items: center;
         text-overflow: ellipsis;
-        width: 70%;
+        height: 50%;
+        width: 100%;
     }
     .img{
         height: 20%;
-        width: 80%;
+        width: 50%;
         justify-content: center;
         object-fit: cover;
     }
@@ -304,5 +314,13 @@ ul li a{
         display: flex;
         width: 50%;
         height: 30%;
+    }
+    .biografia{
+        font-size: 1rem;
+        margin: 0;
+        width: 80%;
+    }
+    .btn-contatos{
+        left: 87%;
     }
 }
